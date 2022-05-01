@@ -1,12 +1,11 @@
 package ru.netology.service;
 
+import org.testng.annotations.Test;
 
-import org.junit.Test;
-
-
-import static junit.framework.TestCase.assertEquals;
+import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
+     
      @Test
     public void testRemain() {
         CashbackHackService service = new CashbackHackService();
